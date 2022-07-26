@@ -1,0 +1,103 @@
+/* Div parent de toute les balises */
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  background-color: rgb#00a8ff;
+  background-image: ;
+}
+
+/* Div parent du corp de la page  */
+.corpHomepage {
+  height: auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+/* Div parent de la partie présentation (h1, p, "signature")  */
+.presentation {
+  font-size: 20px;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Titre "présentation"  */
+h1 {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Texte sur HDEbenisterie  */
+.presentation p {
+  margin-top: 20px;
+}
+
+/* Signature a la fin du texte  */
+.signature {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* iv parent des trois articles + h1  */
+.article {
+  width: 100%;
+  height: 100%;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Div parent des trois articles  */
+.articles {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Div des articles en eux même  */
+.article1,
+.article2,
+.article3 {
+  width: 20%;
+  height: 20em;
+  background-color: grey;
+}
+
+.Footer {
+  width: 100%;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+    margin-top: 4em;
+  }
+
+  .articles {
+    flex-direction: column;
+    height: 65rem;
+  }
+
+  .article1,
+  .article2,
+  .article3 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+/* .body {
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+/* background-color: rgb(27, 122, 246); */
+
+/* background-image: url("../assets/Images/340554.png"); */
+/* } */
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+/* Corp de la page contact (titre non compris) */
+
+
+.corpContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footerContact {
+  display: block;
+}
+
+.footer {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .footerContact {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .corpContact {
+    flex-direction: column;
+  }
+}
